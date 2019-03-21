@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width" />
+            <title>Video et Audio</title>
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/videoAudio.css" />
+        </head>
+        <body> 
+        <h1>AutoFormation OpenClassrooms</h1>
+        <header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Accueil</li></a>
+                    <a href="tableaux.html"><li>Tableaux</li></a>
+                    <a href="formulaires.html"><li>Formulaires</li></a>
+                    <a href="tdCv.html"><li>CV</li></a>
+                    <a href="animate.html"><li>Animate</li></a>
+                    <a href="videoAudio.html"><li>Video/Audio</li></a>
+                    <a href="responsiveDesign.html"><li>Responsive</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <h2>Video et Audio dans une page html</h2>
+            <h3>Audio</h3>
+            <hr />
+            <section>
+                <h4>Audio au format mp3
+                <article>
+                    <audio src="audio/main-theme-xenoblade-chronicles-music.mp3" controls loop></audio>
+                </article>
+                <article>    
+                    <h4>Pour permettre plusieurs formats differents:</h4>
+                    <audio controls loop>
+                        <source src="mp3/main-theme-xenoblade-chronicles-music.ogg" />
+                        <source src="mp3/main-theme-xenoblade-chronicles-music.aac" />
+                    </audio>
+                </article>
+            </section>
+            <h3>Video</h3>
+            <hr />
+            <section>
+                <article>
+                    <p>Ici la vidéo affiche par défaut sa première image</p>
+                    <video src="video/404.webm" controls loop></video>
+                </article>
+                <article>
+                    <h4>Pour permettre plusieurs formats differents:</h4>
+                    <p>On utilisera également l'attribut "poster</p>
+                    <video poster="img/Stone-Falls.jpg" controls loop>
+                        <source src="video/Stone-Falls.mp4" />
+                        <source src="video/Stone-Falls.webm" />
+                    </video>
+                    <p>N.B Pour plus de compatibilité, toujours utiliser le mp4 en premier, sinon les mobiles renverront une erreur</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Source audio: <a href="https://www.youtube.com/watch?v=7OxpAqDc4JE">Xenoblade chronicles: main theme</a></p>
+            <p>Source video: <a href="https://pixabay.com/fr/videos/m%C3%A9duse-r%C3%A9servoir-l-eau-la-vie-10480/">Pixabay</a></p>
+            <p>Source video2: <a href="https://coverr.co/tags/animated">Coverr</a></p>
+        </footer>
+    </body>
+</html>

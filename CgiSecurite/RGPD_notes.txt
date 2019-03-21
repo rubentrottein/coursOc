@@ -1,0 +1,10 @@
+Responsables du traitement des données définissent le cadre et les méthodes de traitement
+Les sous-traitants des données manipulent les données selon les directives du responsable(strict, signé).
+Traitement en roue de déming du traitement des données.
+En cas de violation, le délai de notification est de 72h.
+Un responsable doit faire signer un contrat ecrit avant toute manipulation des data.
+Le responsable doit toujours veiller au respect du RGPD.
+Le cadre d'application doit être régulièrement contrôlé par le résponsable.
+
+->utiliser les données selon le cadre
+	

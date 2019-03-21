@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+article{
+    flex-direction: column;
+}
+video{
+    width: 95%;
+}
+audio{
+    width: 95%;
+}

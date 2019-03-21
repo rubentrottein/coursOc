@@ -1,0 +1,44 @@
+.navAlt{
+    display: none;
+}
+.navAlt nav{
+    background: url('../img/background.jpg');
+    margin: 0; 
+    padding: 0;
+    height: 40px;
+    width: 100%;
+}
+.navAlt nav a :hover{
+    color: tomato;
+    background: rgba(0, 0, 0,0.3);
+}
+.navAlt nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.navAlt nav a{
+    line-height: 40px;
+}
+@media screen and (max-width: 1024px)
+{
+    .lisere{
+        display: none;
+    }
+    .navAlt{
+        display: flex;
+    }
+    .line{
+        flex-flow:column;
+        width: 100%;
+    }
+    .line ul{
+        width: 100%;
+    }       
+    .cv{
+        flex-direction:column;
+    }
+}

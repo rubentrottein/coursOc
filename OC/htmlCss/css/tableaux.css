@@ -1,0 +1,17 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid darkolivegreen;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section table{
+    width: 45%;
+}
+caption{
+    margin: 15px 0 5px 0;
+}

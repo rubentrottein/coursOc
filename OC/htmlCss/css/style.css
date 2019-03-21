@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box; 
+    transition: 0.5 ease; 
+}
+main{ 
+    min-height: 30em;
+    margin: 2em auto;
+    padding-bottom: 2em;
+}
+.no{
+    border-top: 3px solid red;
+    position: relative;
+    top: 80px;
+    transform: rotate(10deg);
+    width: 40em;
+}
+h1{
+    background: darkkhaki;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: darkslategrey 1px 0 10px;
+}
+h2{color: tomato;}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+a{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+a :hover{
+    color: tomato;
+    background-color: black;
+    transition: ease 1s;
+    transform: scale(1.1);
+}
+nav{
+    background:darkslategray;
+    margin: 0; 
+    padding: 0;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    height: 100%;
+}
+nav a li{
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.emphasis{
+    text-shadow: lightgreen 1px 0 10px; 
+    color: lightseagreen;
+}
+.depreciated{
+    text-shadow: tomato 1px 0 10px; 
+    color: indianred;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+footer{
+    background:darkslategray;
+    margin: auto; 
+    padding: 5px;
+    display: flex;
+    min-height: 5em;
+    justify-content: space-around;
+}
+footer a{
+    color: darkgoldenrod;
+}
+
+@media screen and (max-width: 800px)
+{
+    h1, h2, header{display: flex; flex-flow: column wrap;}
+    ul{
+        flex-direction: column;
+    }
+}
+.cards{
+    display: flex;
+    height: 50px;
+    margin: 50px auto;
+    padding: auto;
+    justify-content: space-around;
+}
+.cards ul{
+    width: 100%;
+}
+.cards li{
+    list-style-type: none;
+    background: linear-gradient(darkslategray, black);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px aliceblue;
+    height: 80px;
+    width: 160px;
+    line-height: 80px;
+    text-align: center;
+}
+.cards li a{
+    justify-content: space-around;
+    color: aliceblue;  
+    height: 50px;
+    margin: 20px;
+}

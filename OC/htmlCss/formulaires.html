@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width" />
+            <title>Formulaires</title>
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/formulaires.css" />
+        </head>
+        <body> 
+        <h1>AutoFormation OpenClassrooms</h1>
+        <header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Accueil</li></a>
+                    <a href="tableaux.html"><li>Tableaux</li></a>
+                    <a href="formulaires.html"><li>Formulaires</li></a>
+                    <a href="tdCv.html"><li>CV</li></a>
+                    <a href="animate.html"><li>Animate</li></a>
+                    <a href="videoAudio.html"><li>Video/Audio</li></a>
+                    <a href="responsiveDesign.html"><li>Responsive</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <h2>Formulaires html</h2>
+            <h3>Formulaire complet</h3>
+            <form method="post" action="traitement.php">
+                <fieldset>
+                
+                    <legend>Champs login</legend>
+                    <label for="pseudo">Votre pseudo</label>
+                    <input type="text" name="pseudo" id="pseudo" maxlength="5" placeholder="taper pseudo" autofocus required/>
+
+                    <label for="password">Votre mot de passe</label>
+                    <input type="password" name="password" id="password"placeholder="mot de passe" />
+                
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Champs d'entrée de textes</legend>
+                    
+                    <label for="texte">Zone de texte simple</label>    
+                    <textarea rows="5" cols="50">Texte simple</textarea>
+                    <br /><br />
+                    <label for="pseudo">Votre Email</label>
+                    <input type="email" name="email" id="email" placeholder="moi@exemple.fr" />
+                    
+                    <label for="url">Votre site</label>
+                    <input type="url" name="url" id="url" placeholder="http://monurl.mondomaine" />
+                </fieldset>
+
+                <fieldset>
+                    <legend>Champs d'entrée de nombres</legend>
+                    <label for="telephone">Votre numero de téléphone</label>
+                    <input type="tel" name="telephone" id="telephone" maxlength="10" placeholder="0123456789" />
+
+                    <br />
+                    <label for="number">Saisie de nombre</label>
+                    <input type="number" name="number" id="number"  min="2" max="10" placeholder="entre 2 et 10" step="8"/>
+                    
+                    <br />
+                    <label for="range">Curseur de selection</label>
+                    <input type="range" name="range" id="range"  min="2" max="10" placeholder="entre 2 et 10" step="4"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Autres Champs d'entrée d'informations</legend>
+
+                    <label for="color">Nuancier</label>
+                    <input type="color" name="color"/>
+                    <br />
+                    <label for="search" >Recherche</label>
+                    <input type="search" name="search"/>
+                    <label for="date" >DatePicker</label>
+                    <input type="date" name="date"/>
+                    <br />
+                </fieldset>
+                <fieldset>
+                    <legend>Radio Buttons</legend>
+                    <fieldset>
+                        <legend>Groupe "continent"</legend>
+                        
+                        <label for="radio" >Afrique</label>
+                        <input type="radio"  name="continent" value=" Afrique"id ="Afrique"/>
+                        <label for="radio" >Europe</label>
+                        <input type="radio"  name="continent" value=" Europe"id ="Europe"/>
+                        <label for="radio" >Asie</label>
+                        <input type="radio"  name="continent" value=" Asie"id ="Asie"/>
+                        <br>
+                    </fieldset>
+                    <fieldset>    
+                    <legend>Groupe "ville"</legend>
+                    
+                    <label for="radio" >Luanda</label>
+                    <input type="radio"  name="ville" value=" Luanda"id ="Luanda"/>
+                    <label for="radio" >Rungis</label>
+                    <input type="radio"  name="ville" value=" Rungis"id ="Rungis"/>
+                    <label for="radio" >Hanoi</label>
+                    <input type="radio"  name="ville" value="Hanoi"id ="Hanoi"/>
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Champs d'entrées multiples</legend>
+                    <label for="checkbox" >Checkbox</label>
+                    <input type="checkbox" name="checkbox" checked/>
+                    <label for="checkbox2" >Checkbox2</label>
+                    <input type="checkbox" name="checkbox2" checked/>
+                    
+                    <br />
+                    
+                    <select>
+                        <option>Quitter ce tutorial</option>
+                        <option >Quitter la salle</option>
+                        <option selected>Quitter la tour</option>
+                        <option>Quitter la Défense.</option>
+                    </select>
+                    <br />
+                </fieldset>
+                <fieldset>
+                    <legend>Envoi du formulaire</legend>
+                    <input type="submit" value="Envoyer"/>
+                    <br />
+                    <input type="reset" value="Effacer"/>
+                    <br />
+                    <input type="image" src="img/send.svg" height="20px" value="Envoyer"/>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>Copyright: </p><p><a href="https://www.mistertea.fr">Ruben T</a></p>
+            <p>Source audio: <a href="https://www.youtube.com/watch?v=7OxpAqDc4JE">Xenoblade chronicles: main theme</a></p>
+            <p>Source video: <a href="https://pixabay.com/fr/videos/m%C3%A9duse-r%C3%A9servoir-l-eau-la-vie-10480/">Pixabay</a></p>
+            <p>Source video2: <a href="https://coverr.co/tags/animated">Coverr</a></p>
+        </footer>
+    </body>
+</html>
